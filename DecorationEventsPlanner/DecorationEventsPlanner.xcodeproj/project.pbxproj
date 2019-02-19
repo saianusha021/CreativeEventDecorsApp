@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88B9CB0F2218D6F9006A0C88 /* DecorPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9CB0E2218D6F9006A0C88 /* DecorPhotosViewController.swift */; };
+		88B9CB102218D6F9006A0C88 /* DecorPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9CB0E2218D6F9006A0C88 /* DecorPhotosViewController.swift */; };
+		88B9CB112218D6F9006A0C88 /* DecorPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9CB0E2218D6F9006A0C88 /* DecorPhotosViewController.swift */; };
+		88B9CB132218D7FA006A0C88 /* DecorEventsCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9CB122218D7FA006A0C88 /* DecorEventsCalendarViewController.swift */; };
+		88B9CB142218D7FA006A0C88 /* DecorEventsCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9CB122218D7FA006A0C88 /* DecorEventsCalendarViewController.swift */; };
+		88B9CB152218D7FA006A0C88 /* DecorEventsCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B9CB122218D7FA006A0C88 /* DecorEventsCalendarViewController.swift */; };
 		88E82BD8220A7C01004E61BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E82BD7220A7C01004E61BB /* AppDelegate.swift */; };
-		88E82BDA220A7C01004E61BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E82BD9220A7C01004E61BB /* ViewController.swift */; };
+		88E82BDA220A7C01004E61BB /* DecorEventsTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E82BD9220A7C01004E61BB /* DecorEventsTabBarController.swift */; };
 		88E82BDD220A7C01004E61BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88E82BDB220A7C01004E61BB /* Main.storyboard */; };
 		88E82BE0220A7C01004E61BB /* DecorationEventsPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88E82BDE220A7C01004E61BB /* DecorationEventsPlanner.xcdatamodeld */; };
 		88E82BE2220A7C01004E61BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88E82BE1220A7C01004E61BB /* Assets.xcassets */; };
@@ -35,9 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		88B9CB0E2218D6F9006A0C88 /* DecorPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorPhotosViewController.swift; sourceTree = "<group>"; };
+		88B9CB122218D7FA006A0C88 /* DecorEventsCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorEventsCalendarViewController.swift; sourceTree = "<group>"; };
 		88E82BD4220A7C01004E61BB /* DecorationEventsPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecorationEventsPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88E82BD7220A7C01004E61BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		88E82BD9220A7C01004E61BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88E82BD9220A7C01004E61BB /* DecorEventsTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorEventsTabBarController.swift; sourceTree = "<group>"; };
 		88E82BDC220A7C01004E61BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88E82BDF220A7C01004E61BB /* DecorationEventsPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DecorationEventsPlanner.xcdatamodel; sourceTree = "<group>"; };
 		88E82BE1220A7C01004E61BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +108,14 @@
 			isa = PBXGroup;
 			children = (
 				88E82BD7220A7C01004E61BB /* AppDelegate.swift */,
-				88E82BD9220A7C01004E61BB /* ViewController.swift */,
+				88E82BD9220A7C01004E61BB /* DecorEventsTabBarController.swift */,
 				88E82BDB220A7C01004E61BB /* Main.storyboard */,
 				88E82BE1220A7C01004E61BB /* Assets.xcassets */,
 				88E82BE3220A7C01004E61BB /* LaunchScreen.storyboard */,
 				88E82BE6220A7C01004E61BB /* Info.plist */,
 				88E82BDE220A7C01004E61BB /* DecorationEventsPlanner.xcdatamodeld */,
+				88B9CB0E2218D6F9006A0C88 /* DecorPhotosViewController.swift */,
+				88B9CB122218D7FA006A0C88 /* DecorEventsCalendarViewController.swift */,
 			);
 			path = DecorationEventsPlanner;
 			sourceTree = "<group>";
@@ -263,8 +273,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E82BE0220A7C01004E61BB /* DecorationEventsPlanner.xcdatamodeld in Sources */,
-				88E82BDA220A7C01004E61BB /* ViewController.swift in Sources */,
+				88B9CB0F2218D6F9006A0C88 /* DecorPhotosViewController.swift in Sources */,
+				88E82BDA220A7C01004E61BB /* DecorEventsTabBarController.swift in Sources */,
 				88E82BD8220A7C01004E61BB /* AppDelegate.swift in Sources */,
+				88B9CB132218D7FA006A0C88 /* DecorEventsCalendarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E82BF0220A7C02004E61BB /* DecorationEventsPlannerTests.swift in Sources */,
+				88B9CB102218D6F9006A0C88 /* DecorPhotosViewController.swift in Sources */,
+				88B9CB142218D7FA006A0C88 /* DecorEventsCalendarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				88E82BFB220A7C02004E61BB /* DecorationEventsPlannerUITests.swift in Sources */,
+				88B9CB112218D6F9006A0C88 /* DecorPhotosViewController.swift in Sources */,
+				88B9CB152218D7FA006A0C88 /* DecorEventsCalendarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
